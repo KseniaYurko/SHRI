@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 24px 32px;
+}
+
+.title-wrapper {
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.title {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 32px;
+  color: #1b1f23;
+}
+
+.accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

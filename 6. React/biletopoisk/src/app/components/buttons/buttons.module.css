@@ -1,0 +1,50 @@
+.buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.button {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: #ff5500;
+  border-radius: 4px;
+}
+
+.button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 9px;
+  height: 0.75px;
+  background-color: #ffffff;
+}
+
+.button.plus::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0.75px;
+  height: 9px;
+  background-color: #ffffff;
+}
+
+.button:hover {
+  background: #e94e00;
+}
+
+.button:disabled {
+  background: #ffa375;
+}
+
+.counter {
+  font-family: var(--sf-pro-text);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+}

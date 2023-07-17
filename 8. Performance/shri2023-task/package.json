@@ -1,0 +1,20 @@
+{
+  "name": "vite-project",
+  "version": "0.0.0",
+  "main": "./components/index.html",
+  "scripts": {
+    "test": "jest",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@vitejs/plugin-react": "^4.0.1",
+		"vite": "^4.3.9"
+  }
+}

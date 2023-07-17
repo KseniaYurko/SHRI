@@ -1,0 +1,12 @@
+.main {
+  display: flex;
+  gap: 24px;
+  padding: 24px 32px;
+}
+
+.movies {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}

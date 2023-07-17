@@ -1,0 +1,23 @@
+{
+	"name": "shri2023-task",
+	"version": "1.0.0",
+	"description": "",
+	"main": "./src/index.html",
+	"scripts": {
+		"test": "jest",
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"author": "bernizhel <detrop.1995@gmail.com> (https://github.com/bernizhel)",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.3.3",
+		"@vitejs/plugin-react": "^4.0.1",
+		"vite": "^4.3.9"
+	},
+	"dependencies": {
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0"
+	}
+}

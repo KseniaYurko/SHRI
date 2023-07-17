@@ -1,0 +1,29 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.list-item {
+  display: flex;
+  gap: 8px;
+}
+
+.title {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1b1f23;
+}
+
+.value {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1b1f23;
+}

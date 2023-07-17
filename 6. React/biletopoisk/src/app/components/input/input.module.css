@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.label {
+  font-family: var(--sf-pro-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1f23;
+}
+
+.input {
+  width: 360px;
+  height: 40px;
+  padding: 10px 16px;
+  font-family: var(--sf-pro-text);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #1b1f23;
+  border: 1px solid #e1e3e6;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.input::placeholder {
+  color: #999fa6;
+}
+
+.input:focus {
+  outline-color: #ff5500;
+}

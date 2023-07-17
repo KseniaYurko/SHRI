@@ -1,0 +1,17 @@
+{
+  "name": "1.-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fetch": "^1.1.0",
+    "request": "^2.88.2"
+  }
+}

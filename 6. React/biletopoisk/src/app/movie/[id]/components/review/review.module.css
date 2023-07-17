@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  gap: 32px;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1b1f23;
+}
+
+.review {
+  display: flex;
+  gap: 8px;
+}
+
+.review-title {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1b1f23;
+}
+
+.review-value {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #1b1f23;
+}
+
+.text {
+  font-family: var(--roboto);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1f23;
+}
